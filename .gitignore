@@ -214,7 +214,6 @@ chat/*
 
 # AI generated files
 .cursor/*
-.claude/*
 
 # Markdown files
 CLAUDE.md
