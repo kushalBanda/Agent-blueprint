@@ -12,7 +12,7 @@ Guidelines for managing task lists in markdown files to track progress on comple
 ### Workflow Steps
 
 1. **Read the task list file**
-   - Parse sections: 🧠 Findings & Decisions Log, Completed, 🚧 In Progress, 🔮 Future
+   - Parse sections: 🧠 Findings & Decisions Log, ✅ Completed, 🚧 In Progress, 🔮 Future
    - Review latest Findings Log entries to maintain context
    - Identify highest-priority unchecked task (topmost in In Progress, else first in Future)
    - Check if task has sub-tasks (indented items below)
@@ -36,7 +36,7 @@ Guidelines for managing task lists in markdown files to track progress on comple
    - **Completion protocol:**  
      1. Mark finished sub-task as completed `[ ]` → `[x]`
      2. Mark parent task complete **only** when ALL sub-tasks are `[x]`
-     3. Move tasks between sections as appropriate (🔮 Future → 🚧 In Progress → Completed)
+     3. Move tasks between sections as appropriate (🔮 Future → 🚧 In Progress → ✅ Completed)
    - Update 🧠 Findings & Decisions Log with discoveries, blockers, or approach changes
    - Update file status indicators in Relevant Files section (⏳ → ✅)
    - Add new files discovered during implementation
@@ -66,7 +66,7 @@ Guidelines for managing task lists in markdown files to track progress on comple
 
 2. **Maintain the "Relevant Files" section:**
    - List every file created or modified
-   - Update status indicators: (completed), ⏳ (in-progress), (none for not started)
+   - Update status indicators: ✅ (completed), ⏳ (in-progress), (none for not started)
    - Give each file a one-line description of its purpose
    - Add new files discovered during implementation
 
